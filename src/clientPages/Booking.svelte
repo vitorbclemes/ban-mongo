@@ -129,7 +129,7 @@
           </label>
           <label class="finput" style="width:350px">
             <h1>HORÁRIO</h1>
-            <input type="number" bind:value={newBooking.horario} placeholder="HH:MM" min=06 max=22 step=1 required />
+            <input type="number" bind:value={newBooking.horario} placeholder="HH:MM" min=6 max=22 step=1 required />
           </label>
           <label class="finput" style="width:350px">
             <h1>ESPORTE</h1>
